@@ -6,8 +6,8 @@ import javax.swing.JOptionPane;
 import ExceptionsLogin.WrongPassword;
 import ExceptionsLogin.WrongUsername;
 import ExceptionsLogin.WrongUsernameandPassword;
-import Admin*.;
-import Client*.;
+import Admin.*;
+import Client.*;
 public class LoginController  {
 	private int flag=0;
 	public LoginController(String user, String pas) {
