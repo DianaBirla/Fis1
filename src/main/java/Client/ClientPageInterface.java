@@ -18,7 +18,7 @@ public class ClientPageInterface extends JFrame {
 
 	private JPanel contentPane;
 	private String username;
-	public ClientPageInterface(String username) {
+	public ClientPageInterface(final String username) {
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setSize(1650,1080);
 		contentPane = new JPanel();
