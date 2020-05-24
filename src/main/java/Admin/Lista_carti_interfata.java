@@ -124,7 +124,7 @@ public class Lista_carti_interfata extends JFrame {
 		contentPane.add(btnNewButton_1);
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon(Lista_carti_interfata.class.getResource("src/main/resources/back_lista_carti.jpg")));
+		lblNewLabel.setIcon(new ImageIcon(Lista_carti_interfata.class.getResource("/back_lista_carti.jpg")));
 		lblNewLabel.setBounds(-2, -223, 1362, 1033);
 		contentPane.add(lblNewLabel);
 	}

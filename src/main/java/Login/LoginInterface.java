@@ -81,7 +81,7 @@ public class LoginInterface extends JFrame {
 		contentPane.add(btnNewButton_1);
 		
 		JLabel lblNewLabel_4 = new JLabel("New label");
-		lblNewLabel_4.setIcon(new ImageIcon(LoginInterface.class.getResource("src/main/resources/logback.jpg")));
+		lblNewLabel_4.setIcon(new ImageIcon(LoginInterface.class.getResource("/logback.jpg")));
 		lblNewLabel_4.setBounds(0, 0, 434, 261);
 		contentPane.add(lblNewLabel_4);
 	}

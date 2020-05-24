@@ -114,7 +114,7 @@ public class Stergere_carte extends JFrame {
 		contentPane.add(btnBack);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon(Editare_carte.class.getResource("src/main/resources/stergere.jpg")));
+		lblNewLabel_1.setIcon(new ImageIcon(Editare_carte.class.getResource("/stergere.jpg")));
 		lblNewLabel_1.setBounds(0, 0, 1362, 1033);
 		contentPane.add(lblNewLabel_1);
 	}

@@ -150,7 +150,7 @@ public class Adaugare_carte extends JFrame {
 		contentPane.add(btnBack);
 		
 		JLabel lblNewLabel_2 = new JLabel("");
-		lblNewLabel_2.setIcon(new ImageIcon(Adaugare_carte.class.getResource("src/main/resources/carte_noua.jpg")));
+		lblNewLabel_2.setIcon(new ImageIcon(Adaugare_carte.class.getResource("/carte_noua.jpg")));
 		lblNewLabel_2.setBounds(0, 0, 1362, 1033);
 		contentPane.add(lblNewLabel_2);
 	}

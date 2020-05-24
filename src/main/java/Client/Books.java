@@ -53,7 +53,7 @@ public class Books extends JFrame {
 			 
 		     JLabel jlabel2=new JLabel("poza");
 		     jlabel2.setPreferredSize(new Dimension(200,200));
-		     System.out.println(e.getPoza());
+		    // System.out.println(e.getPoza());
 		     jlabel2.setIcon(new ImageIcon(Books.class.getResource(e.getPoza())));
 		     gbc.gridx=0;
 		     gbc.gridy=1;

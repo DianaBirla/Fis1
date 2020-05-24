@@ -40,7 +40,7 @@ public class ClientPageInterface extends JFrame {
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 14));
 		btnNewButton.setHorizontalAlignment(SwingConstants.LEADING);
 		btnNewButton.setBackground(new Color(255, 255, 255));
-		btnNewButton.setIcon(new ImageIcon(ClientPageInterface.class.getResource("src/main/resources/carti.png")));
+		btnNewButton.setIcon(new ImageIcon(ClientPageInterface.class.getResource("/carti.png")));
 		btnNewButton.setBounds(78, 200, 212, 58);
 		contentPane.add(btnNewButton);
 		
@@ -48,7 +48,7 @@ public class ClientPageInterface extends JFrame {
 		btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 14));
 		btnNewButton_1.setHorizontalAlignment(SwingConstants.LEADING);
 		btnNewButton_1.setBackground(new Color(255, 255, 255));
-		btnNewButton_1.setIcon(new ImageIcon(ClientPageInterface.class.getResource("src/main/resources/lista_imprumut.png")));
+		btnNewButton_1.setIcon(new ImageIcon(ClientPageInterface.class.getResource("/lista_imprumut.png")));
 		btnNewButton_1.setBounds(78, 369, 212, 58);
 		contentPane.add(btnNewButton_1);
 		
@@ -56,7 +56,7 @@ public class ClientPageInterface extends JFrame {
 		btnNewButton_2.setFont(new Font("Tahoma", Font.BOLD, 14));
 		btnNewButton_2.setHorizontalAlignment(SwingConstants.LEADING);
 		btnNewButton_2.setBackground(new Color(255, 255, 255));
-		btnNewButton_2.setIcon(new ImageIcon(ClientPageInterface.class.getResource("src/main/resources/feedback.png")));
+		btnNewButton_2.setIcon(new ImageIcon(ClientPageInterface.class.getResource("/feedback.png")));
 		btnNewButton_2.setBounds(78, 538, 212, 58);
 		contentPane.add(btnNewButton_2);
 		
@@ -66,7 +66,7 @@ public class ClientPageInterface extends JFrame {
 		contentPane.add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("New label");
-		lblNewLabel_1.setIcon(new ImageIcon(ClientPageInterface.class.getResource("src/main/resources/back_carti.jpg")));
+		lblNewLabel_1.setIcon(new ImageIcon(ClientPageInterface.class.getResource("/back_carti.jpg")));
 		lblNewLabel_1.setBounds(0, 0, 1650, 1080);
 		contentPane.add(lblNewLabel_1);
 	}

@@ -81,7 +81,7 @@ public class Actualizare extends JFrame {
 		contentPane.add(btnNewButton_2);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon(Actualizare.class.getResource("src/main/resources/actualizare.jpg")));
+		lblNewLabel_1.setIcon(new ImageIcon(Actualizare.class.getResource("/actualizare.jpg")));
 		lblNewLabel_1.setBounds(0, 0, 1362, 1033);
 		contentPane.add(lblNewLabel_1);
 	}
