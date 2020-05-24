@@ -114,7 +114,7 @@ public class Lista_cereri_interfata extends JFrame {
 		contentPane.add(btnNewButton_1);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon(Lista_cereri_interfata.class.getResource("src/main/resources/imprumutate.jpg")));
+		lblNewLabel_1.setIcon(new ImageIcon(Lista_cereri_interfata.class.getResource("/imprumutate.jpg")));
 		lblNewLabel_1.setBounds(0, 0, 1362, 749);
 		contentPane.add(lblNewLabel_1);
 	

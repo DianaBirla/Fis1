@@ -27,7 +27,7 @@ public class CreareJsonImprumut {
 				list_imprumut.add(obj1);
 				
 		}
-		try(FileWriter file =new FileWriter("CreareJsonImprumut.json"))
+		try(FileWriter file =new FileWriter("src/main/resources/CreareJsonImprumut.json"))
 		{
 			file.write(list_imprumut.toString());
 			file.flush();

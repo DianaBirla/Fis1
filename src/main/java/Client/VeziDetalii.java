@@ -43,6 +43,7 @@ public class VeziDetalii extends JFrame {
 		
 		JLabel lblNewLabel = new JLabel("");
 		lblNewLabel.setBounds(277, 188, 208, 224);
+		System.out.println("Vezi Detalii:"+e.getPoza());
 		lblNewLabel.setIcon(new ImageIcon(VeziDetalii.class.getResource(e.getPoza())));
 		contentPane.add(lblNewLabel);
 		
